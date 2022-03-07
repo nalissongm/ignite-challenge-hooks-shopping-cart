@@ -8,8 +8,8 @@
   - [x] if not return empty array.
 - Add Product
   - [] shold add products to cart, but check if:
-    - [] use method `setItem` for perpetuate in localStorage.
-    - [] if the product there is in cart, only update amount unity.
+    - [x] use method `setItem` for perpetuate in localStorage.
+    - [x] if the product there is in cart, only update amount unity.
     - [] check that the inventory has the required value.
       - [] if not have, use:
       ```javascript
@@ -41,5 +41,5 @@
 
 **Header/index.tsx**
 
-- [] shold get the cart array from useCart (Context - Cart).
-- [] shold show the amount of products added to cart.
+- [x] shold get the cart array from useCart (Context - Cart).
+- [x] shold show the amount of products added to cart.
